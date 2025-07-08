@@ -1,5 +1,6 @@
 import React, { useId } from 'react';
 import clsx from 'clsx';
+import PropTypes from 'prop-types';
 
 type Option = { label: string; value: string };
 type SelectProps = React.SelectHTMLAttributes<HTMLSelectElement> & {
@@ -33,4 +34,8 @@ export const Select: React.FC<SelectProps> = ({ label, error, options, className
       {error && <p className="mt-1 text-sm text-red-600">{error}</p>}
     </div>
   );
+};
+
+Select.propTypes = {
+  className: PropTypes.string,
 }; 

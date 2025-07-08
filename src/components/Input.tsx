@@ -1,5 +1,6 @@
 import React, { useId } from 'react';
 import clsx from 'clsx';
+import PropTypes from 'prop-types';
 
 type InputProps = React.InputHTMLAttributes<HTMLInputElement> & {
   label?: string;
@@ -25,4 +26,8 @@ export const Input: React.FC<InputProps> = ({ label, error, className, id, ...pr
       {error && <p className="mt-1 text-sm text-red-600">{error}</p>}
     </div>
   );
+};
+
+Input.propTypes = {
+  className: PropTypes.string,
 }; 
