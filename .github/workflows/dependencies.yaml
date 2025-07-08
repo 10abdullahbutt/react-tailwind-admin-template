@@ -25,7 +25,7 @@ jobs:
           node-version: '18'
           cache: 'npm'
       - name: Install dependencies
-        run: npm ci --legacy-peer-deps
+        run: npm install --legacy-peer-deps
       - name: Check for outdated packages
         run: npm outdated || echo "No outdated packages found"
       - name: Update dependencies
@@ -63,7 +63,7 @@ jobs:
           node-version: '18'
           cache: 'npm'
       - name: Install dependencies
-        run: npm ci --legacy-peer-deps
+        run: npm install --legacy-peer-deps
       - name: Run npm audit
         run: npm audit --audit-level=moderate
       - name: Check for known vulnerabilities
@@ -89,7 +89,7 @@ jobs:
           node-version: '18'
           cache: 'npm'
       - name: Install dependencies
-        run: npm ci --legacy-peer-deps
+        run: npm install --legacy-peer-deps
       - name: Generate dependency graph
         run: |
           npm list --depth=0 > dependencies.txt
