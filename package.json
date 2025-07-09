@@ -1,5 +1,5 @@
 {
-  "name": "@boolmind/react-tailwind-admin-template",
+  "name": "@10abdullahbutt/react-tailwind-admin-template",
   "version": "1.0.0",
   "description": "A professional, reusable React + Tailwind admin template with utilities, tests, linting, Husky hooks, and Docker support.",
   "main": "dist/index.js",
@@ -32,7 +32,7 @@
     "typescript",
     "component-library"
   ],
-  "author": "Boolmind <info@boolmind.com>",
+  "author": "Boolmind <info@10abdullahbutt.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/boolmind/react-tailwind-admin-template/issues"

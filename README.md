@@ -1,4 +1,4 @@
-# @boolmind/react-tailwind-admin-template
+# @10abdullahbutt/react-tailwind-admin-template
 
 A professional, reusable React + Tailwind CSS admin template with utilities, tests, linting, Husky hooks, and Docker support.
 
@@ -14,7 +14,7 @@ A professional, reusable React + Tailwind CSS admin template with utilities, tes
 ## Getting Started
 
 ```bash
-npm install @boolmind/react-tailwind-admin-template
+npm install @10abdullahbutt/react-tailwind-admin-template
 ```
 
 ## Development
